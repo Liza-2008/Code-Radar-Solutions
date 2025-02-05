@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    flaot a,b;
+    flaot a,b,product;
     scanf("%f %f",&a,&b);
-    printf("Product: %f*%f",a);
+    product=a*b;
+    printf("Product: %.2f\n",product);
     return 0;
 }
