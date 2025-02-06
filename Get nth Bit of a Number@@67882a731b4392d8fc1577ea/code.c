@@ -6,5 +6,5 @@ char* welcome()
 int main()
 {
     printf("%s",welcome());
-    return
+    return 0;
 }
