@@ -1,7 +1,7 @@
 #include <stdio.h>
 int countTrailingZeros(unsigned int num)
 {
-    if (num==o) return 32;
+    if (num==0) return 32;
     int count=0;
     while((num&1)==0)
     {
