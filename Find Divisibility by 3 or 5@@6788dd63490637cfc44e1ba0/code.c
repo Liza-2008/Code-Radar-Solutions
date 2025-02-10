@@ -13,7 +13,7 @@ int main()
     }
     else if (num%5==0)
     {
-        printf("Divisble by 5\n");
+        printf("Divisible by 5\n");
     }
     else
     {
