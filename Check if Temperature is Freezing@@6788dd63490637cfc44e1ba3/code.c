@@ -2,15 +2,15 @@
 
 int main()
 {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if((a>=0 && b>=0) || (a<0 && b<0))
+    int temperature;
+    scanf("%d",&temperature);
+    if (temperature<=0)
     {
-        printf("Same Sign\n");
+        printf("Freezing\n");
     }
     else
     {
-        printf("Different Sign\n");
-    } 
+        printf("Above Freezing\n");
+    }
     return 0;
 }
