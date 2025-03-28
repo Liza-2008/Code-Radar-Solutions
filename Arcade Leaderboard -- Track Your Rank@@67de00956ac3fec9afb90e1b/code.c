@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function Prototype (Declaration)
+// Function declaration
 void trackPlayerRanks(int ranked[], int n, int player[], int m, int result[]);
 
 void trackPlayerRanks(int ranked[], int n, int player[], int m, int result[]) {
@@ -26,7 +26,7 @@ void trackPlayerRanks(int ranked[], int n, int player[], int m, int result[]) {
     }
 }
 
-int main() {
+int main() {  // Only ONE main() function
     int n, m;
 
     // Read leaderboard size and scores
@@ -50,3 +50,4 @@ int main() {
 
     return 0;
 }
+
